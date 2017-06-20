@@ -840,6 +840,10 @@ extension DropDown {
 		//tableView.reloadData()
 		setNeedsUpdateConstraints()
 	}
+	
+	public func reloadData() {
+		tableView.reloadData()
+	}
 
 	/// (Pre)selects a row at a certain index.
 	public func selectRow(at index: Index?) {
