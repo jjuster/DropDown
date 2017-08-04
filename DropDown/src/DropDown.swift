@@ -540,6 +540,7 @@ extension DropDown {
 			attribute: .notAnAttribute,
 			multiplier: 1,
 			constant: 0)
+		heightConstraint.priority = 999
 		tableViewContainer.addConstraint(heightConstraint)
 
 		// Table view
